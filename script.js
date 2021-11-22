@@ -3,7 +3,11 @@ let nombre = prompt("Escriba su nombre");
 saludo = () => {
     if (nombre == "") {
         nombre = "invitado";
-    } else {
+    }
+    else if (nombre == null) {
+        nombre = "pone tu nombre la prox :D"
+    }
+    else {
         alert(`Hola ${nombre}`);
         return nombre;
     }
