@@ -1,10 +1,9 @@
 let nombre = prompt("Escriba su nombre");
 
-function saludo() {
+saludo = () => {
     if (nombre == "") {
         nombre = "invitado";
-    } 
-    else {
+    } else {
         alert(`Hola ${nombre}`);
         return nombre;
     }
