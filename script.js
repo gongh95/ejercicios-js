@@ -1,6 +1,13 @@
-// let nombre = prompt("Escriba su nombre");
+let nombre = prompt("Escriba su nombre");
 
-// alert(`"Hola " ${nombre}`);
+function saludo() {
+    alert(`Hola ${nombre}`);
+    if (nombre == "") {
+        return nombre = "invitado";
+    }
+}
+
+saludo()
 
 
 let animales = ["perro","gato","conejo","caballo","pajaro"];
@@ -9,13 +16,17 @@ let i;
 
 document.write(numero + "<br>");
 
-while (numero <= 15) {
+function numeros() { while (numero <= 15) {
     numero++;
     document.write(numero  + "<br>");
     if (numero == 13) {
         break;
     }
 }
+}
+
+// Aca se ejecuta la funcion "numeros"
+numeros()
 
 document.write("<hr>");
 
