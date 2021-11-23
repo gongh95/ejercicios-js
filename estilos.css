@@ -36,6 +36,7 @@ main {
 }
 
 .selector {
+    text-align: center;
     position: relative;
     font-size: 1.7em;
     height: 3em;
