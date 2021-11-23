@@ -21,8 +21,27 @@ body {
     text-align: center;
     color: #fff;
 }
- .welcome {
+
+.welcome {
     text-align: center;
     font-size: 2em;
     color: #333;
- }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.selector {
+    position: relative;
+    font-size: 1.7em;
+    height: 3em;
+    background-color: #deb887;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #ddd;
+}
